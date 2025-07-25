@@ -1,1 +1,1 @@
-# Natural-language-inference-NLI-
+# Natural-language-inference-NLI
