@@ -32,3 +32,16 @@ The performance of each model was compared across all prompting strategies, with
 For now, Qwen 2 7B was the best within these experiments.
 The final model is now publicly available on my Hugging Face page.
 https://huggingface.co/sepzyd/Qwen2-biomed-nli-EEC
+
+## Libraries Used
+The following libraries and tools were used throughout the project:
+
+- `transformers` – for loading LLaMA 2, Qwen 2, Mistral, and DeepSeek models
+- `peft` – for parameter-efficient fine-tuning (LoRA)
+- `datasets` – for dataset management and loading
+- `scikit-learn` – for evaluation metrics (F1-score, confusion matrix)
+- `torch` – for deep learning model training and inference
+- `accelerate` – for efficient training across devices
+- `json`, `pandas`, `numpy` – for data processing
+- `matplotlib`, `seaborn` – for plotting and result visualization
+- `tqdm` – for progress tracking
